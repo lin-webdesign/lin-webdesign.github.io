@@ -1,0 +1,54 @@
+@charset "utf-8"
+html,body{
+    margin:0px
+    padding:0px
+}
+pre{
+    color:blue
+}
+.p1{
+    color:skyblue
+}
+#p2{
+    color: green
+}
+body em{
+    color: black;
+}
+body > sds{
+    color: gold;
+
+}
+h2[title]{
+    background-color: yellow;
+}
+h2[title="demo2"]{
+    background-color: red;
+}
+a:link{
+    text-decoration: none;
+
+}
+a:visited{
+    color:green
+}
+a:hover{
+    background-color: red;
+}
+body{
+    font-size: 20px;
+}
+.size p:nth-child(2){
+    font-size: 2em;
+}
+.color p:nth-child(1){color:rgba(128, 0, 128, 0.5)} 
+.color p:nth-child(2){white-space:pre;}
+.decoration p:nth-child(1){text-decoration: underline;}
+.decoration p:nth-child(2){
+    font-size: 64px;
+    text-shadow: 3px 3px 1px rgba(127,127,127,0.5);}
+.bgstyle p:nth-child(1){
+    width:1000px;
+    height:1000px;
+    background-image: url(images/nan1.jpg);
+    background-color: skyblue;}
